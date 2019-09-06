@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/leon-do/instagram-auto-like#readme",
   "devDependencies": {
-    "cypress": "^3.4.1"
+    "cypress": "^3.4.1",
+    "cypress-plugin-retries": "^1.2.2"
   }
 }

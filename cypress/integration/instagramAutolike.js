@@ -1,6 +1,7 @@
 const username = 'usernameHere';
 const password = 'passwordHere';
-const tags = ['fishing', 'mountain', 'climbing', 'freesolo'];
+const tags = ['fishing', 'mountain', 'climbing', 'adventure'];
+Cypress.env('RETRIES', 99); // https://github.com/Bkucera/cypress-plugin-retries
 
 describe('instagram auto like', () => {
   it('should log in, then loop through likes', () => {
