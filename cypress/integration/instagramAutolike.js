@@ -29,7 +29,8 @@ describe('instagram auto like', () => {
         )
         .click()
         .wait(5000)
-        .get('span[aria-label="Like"]')
+        .get('section')
+        .find('span[aria-label="Like"]')
         .click()
         .wait(Math.random() * 60000)
         .then(() => loop());
